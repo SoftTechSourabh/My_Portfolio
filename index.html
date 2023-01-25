@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<style>
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+    body {
+        /*         background-color: lightpink; */
+
+        background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-attachment: fixed;
+        color: white;
+        font-family: 'Rowdies', cursive;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .thumbnail {
+        /*     margin: 0px;
+/* margin-right:0px; */
+        /*         font-size:24px; */
+        float: right;
+        margin-right: 25px;
+        margin-top: 28px;
+        position: sticky;
+        top: 0;
+        /*   left: 0; */
+        right: 0;
+        z-index: 999;
+
+    }
+
+    a {
+        margin: 0%;
+        padding: 18px;
+        text-decoration: none;
+        border: 0px solid white;
+        border-radius: 15px;
+        color: white;
+        font-weight: bold;
+    }
+
+    /*     a : hover {
+        background-color: green;
+    } */
+
+    a {
+        width: 50px;
+        height: 30px;
+        font-size: 100%;
+    }
+
+    @media screen and (max-width: 600px) {
+        a {
+            width: 100%;
+            font-size: 14px;
+        }
+    }
+
+    #nav {
+        float: left;
+        margin-top: 0px;
+        margin-left: -9px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+
+    }
+
+
+    div {
+        display: absolute;
+    }
+
+    a:hover {
+        /*        background-color:whitesmoke; */
+        color: orange;
+    }
+
+    img {
+        float: right;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .img-thumbnail {
+        float: left;
+        border-radius: 33px;
+        margin-left: 30px;
+        margin-right: 0px;
+
+        margin-top: 57px;
+        border-color: green;
+        max-width: 100%;
+        height: 8%;
+    }
+
+
+
+
+
+
+
+    .container {
+        display: flexbox;
+    }
+
+
+    /*image responsive query  */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    <picture><source srcset="image-high-res.jpg"media="(min-width: 1200px)"><source srcset="image-medium-res.jpg"media="(min-width: 800px)"><source srcset="image-low-res.jpg"media="(min-width: 400px)"><img src="image-medium-res.jpg"alt="A responsive image"></picture>img {
+        object-fit: contain;
+    }
+
+    p {
+        text-align: center;
+        padding: 18px;
+    }
+
+    /*     p:hover {
+        color: darkblue;
+        background-color: lightyellow;
+    }
+ */
+    /*     body:hover {
+        background-color: gold;
+        color: black;
+
+    }
+ */
+    img:hover {
+        border-color: black;
+        border-width: 10px;
+
+    }
+
+
+    #nav {
+        height: auto;
+        background: darkgreen;
+        width: max-content;
+
+    }
+</style>
+
+<body>
+
+    <!-- Thumbnail code is here -->
+    <div data-aos="fade-down">
+
+        <a href="https://softtechsourabh.github.io/portfolio.github.io/"><img
+                src="https://softtechsourabh.github.io/portfolio.github.io/Profile%20picture%20(8).png"
+                class="thumbnail" width="45" alt="check-connection" style="border-radius: 55px; border-style: solid; border-width:3px; border-color:white; display: inline-block; vertical-align: right;
+  overflow: auto;"></a>
+
+
+    </div>
+
+    <!--  navbar code is here -->
+
+    <div id="nav" data-aos="fade-down">
+
+        <a href="#container">HOME</a>
+        <a href="#training">TRAINING</a>
+        <a href="#project">PROJECT</a>
+        <a href="mailto:777sourabhsharma@gmail.com">CONTACT</a>
+        <a href="https://softtechsourabh.github.io/portfolio.github.io/">PORTFOLIO</a>
+        <a style:""; href="#aboutme">ABOUT</a>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!--image thumbnail code is here  -->
+    <div id="container" data-aos="fade-down">
+        <div class="profile">
+            <img src="https://github.com/SoftTechSourabh/portfolio.github.io/blob/main/IMG-20230107-WA0013.jpg?raw=true"
+                class="img-thumbnail" alt="Check-server" width="250">
+
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <!--         First Welcome note is here  -->
+        <div data-aos="fade-right">
+
+            <center style="margin-top: 8%;">
+
+
+
+
+                <h1 style="margin-left: 0%; display: inline-block;
+/*   vertical-align: top; */
+  overflow: auto; 
+">WELCOME TO MY WORLD !</h1>
+
+
+
+
+
+                <h2 class="myName" style="margin-left: 0%;"> Hi, I'm <b style="color:red; ">Sourabh Sharma</b> </h2>
+
+
+
+
+                <h2 style="margin-left: 0%;"> a <b style="color:#00ff00 ; ">Developer.</b> </h2>
+
+            </center>
+        </div>
+        <br><br>
+
+        <!--  First  Paragraph is here -->
+
+        <div class="paragraph" data-aos="fade-down">
+
+            <center style="margin-top: 10%;">
+
+                <p style="width: 75%;display: inline-block;
+  vertical-align: right;
+  overflow: auto;">
+                    As a developer, my passion is creating innovative solutions through code. I am constantly learning
+                    and staying up to date with the latest technologies and methodologies highest quality. Whether I am
+                    building a website, an app, or a custom to ensure that my work is of the software solution, I am
+                    dedicated to crafting exceptional experiences for my users. I thrive in collaborative environments
+                    and enjoy working with teams to bring projects to life. With my skills in a variety of programming
+                    languages and my ability to solve complex problems, I am confident in my ability to make a positive
+                    impact in any project I work on.
+                </p>
+        </div>
+        </br><br><br><br>
+
+        <!-- About Me -->
+        <center>
+
+            <div id="aboutme" data-aos="fade-down">
+                <center>
+                    <h1 style="text-decoration:double;">ABOUT ME !</h1>
+                </center>
+
+
+                <br>
+                <p style="width: 75%;display: inline-block;
+  vertical-align: right;
+  overflow: auto;">Thanks for your interest, here is a quick story of me and this website.
+                    Hello, There is Sourabh Sharma, I completed my graduation from VIKRAM UNIVERSITY UJJAIN, In
+                    which I have got success with 80.55% percentage. I have done B.Sc. with Mathematics and Physics.
+                    Earlier, I have secured my 12th class in MADHYA PRADESH BOARD OF SECODARY EDUCATION with 76.83%
+                    percentage and In class 10th I have secured first division with 76.83% percentage.
+                    I do my work mainly in JAVA and JAVASCRIPT. JAVA and Data Structure & Algorithm are my stronger
+                    section. Besides these I know Web Development, as well.
+                    This website is basically one of my Web Development project which is built using HTML only. Here
+                    one can also find ideas for projects in different languages. Thanks again for reading this,
+                    because of people like you, it exists and prospers!
+                    Cheers,
+                    sourabh sharma❤️.
+
+                </p>
+
+            </div>
+        </center>
+        <br>
+        <br>
+        <br>
+
+        <!--          CODE FOR THE PROJECT   -->
+        <center>
+
+            <div id="project" data-aos="fade-down">
+
+                <center>
+                    <h1>PROJECT</h1>
+                </center>
+                <br>
+                <br>
+
+                <ul>
+                    <li style="font-size: 130%;">
+                        TECHNOLOGY ON DEMAND - ROADMAP
+                        <a href="https://softtechsourabh.github.io/techondemand.github.io/#"
+                            style="text-decoration:none">
+                            click➲
+                        </a>
+                    </li>
+                    <br>
+                    <li style="font-size: 130%;">
+                        PORTFOLIO-WEBSITE 1
+                        <a href="https://softtechsourabh.github.io/portfolio.github.io/" style="text-decoration:none">
+                            click➲
+                        </a>
+                    </li>
+
+                    <br>
+                    <li style="font-size: 130%;">
+                        PORTFOLIO-WEBSITE 2
+                        <a href="https://website.softtechsourabh.repl.co/" style="text-decoration:none">
+                            click➲
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </center>
+
+        <br>
+        <br>
+        <br>
+
+        <!--         Training is here  -->
+
+        <center>
+
+
+            <div id="training" data-aos="fade-down">
+                <center>
+                    <h1> TRAINING </h1>
+                </center>
+                <br>
+                <br>
+
+
+                <ul>
+                    <b>PLATFORM - UDEMY</b>
+                    <li>COURSE- CLOUD-COMPUTING
+                    </li>
+                    <li>COURSE MODE- ONLINE
+                    </li>
+                </ul>
+
+                <ul>
+                    <b>PLATFORM - APNA COLLEGE</b>
+                    <li>COURSE- JAVA PLACEMENT COURSE
+                    </li>
+                    <li>COURSE MODE- ONLINE
+                    </li>
+                </ul>
+
+                <ul>
+                    <b>PLATFORM - CODEWITHHARY</b>
+                    <li>COURSE- WEB DEVELOPMENT
+                    </li>
+                    <li>COURSE MODE- ONLINE
+                    </li>
+                </ul>
+
+
+
+            </div>
+        </center>
+        </center>
+
+
+
+    </div>
+    </div>
+
+
+
+    </div>
+
+    <!-- This is the bottom copyright line dont forget to write here code -->
+
+
+    <div id="bottom" style="width:100% ;height:auto% ; background-color:blue ;">
+        <center>
+
+            <b>
+                <h5 style="align:center; color:white;"> ©Copyright 2023.
+                    All RIGHTS RESERVED. THANKS ! FOR VISITING OUR WEBSITE ❤️</h5>
+            </b>
+        </center>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+
+
+            //for smoothly move scroll down
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+           // data aos
+        </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 1000,
+        });
+    </script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
